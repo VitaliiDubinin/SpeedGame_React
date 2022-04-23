@@ -1,0 +1,129 @@
+.circle {
+  margin: 1.5rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border-color: brown;
+  border-width: 3px;
+  background-color: beige;
+  border-style: solid;
+  cursor: pointer;
+}
+
+/* .active {
+  border-color: red;
+  background-color: blue;
+} */
+
+.circle.active {
+  background-image: radial-gradient(red, orange, yellow);
+}
+
+/* .butCirc {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  height: 15vw;
+  position: relative;
+  top: 15vh;
+  left: 25vw;
+  flex-wrap: wrap;
+  margin-right: none;
+  pointer-events: none;
+} */
+
+.NameOfGame {
+  position: relative;
+  /* top: 20vh;
+  left: 30vw; */
+}
+
+.score {
+  position: relative;
+  /* top: 20vh;
+  left: 40vw; */
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.circles {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  /* padding: 0.8rem 2rem; */
+  margin: 2rem;
+  cursor: pointer;
+  background-color: brown;
+  width: 5rem;
+  height: 3rem;
+  color: azure;
+  border-radius: 3rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.gameover_box {
+  background: white;
+  padding: 1rem;
+  width: 12rem;
+  min-height: 25%;
+  border-radius: 14px;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  color: blue;
+}
+
+.gameover_box button {
+  /* background: lightgrey; */
+  position: absolute;
+  bottom: 5.8rem;
+  left: 8rem;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
+
+.level {
+  /* padding: 0.8rem 2rem; */
+  margin: 2rem;
+  cursor: pointer;
+  /* background-color: brown; */
+  width: 3rem;
+  height: 3rem;
+  color: azure;
+  border-radius: 3rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.low {
+  background-color: darkgreen;
+}
+.middle {
+  background-color: darkorchid;
+}
+.high {
+  background-color: darkred;
+}
