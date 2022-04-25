@@ -2,7 +2,7 @@
   "name": "light_circle_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vitaliidubinin.github.io",
+  "homepage": "https://vitaliidubinin.github.io/SpeedGame_React/",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.4",
