@@ -30,9 +30,9 @@ name: SonarCloud analysis
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "VitaliiDubinin-patch-1" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "VitaliiDubinin-patch-1" ]
   workflow_dispatch:
 
 permissions:
